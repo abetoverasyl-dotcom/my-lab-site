@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги и цены — ЛЮМИ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>ЛЮМИ</h1>
+        <p>Салон красоты и ухода за собой</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="uslugi.html">Услуги и цены</a>
+        <a href="kontakty.html">Контакты</a>
+    </nav>
+
+    <div class="container">
+
+        <h2>Наши услуги и цены</h2>
+
+        <p>Выберите интересующую вас услугу.</p>
+
+        <table>
+            <tr>
+                <th>Название услуги</th>
+                <th>Описание</th>
+                <th>Цена</th>
+            </tr>
+
+            <tr>
+                <td>Маникюр</td>
+                <td>Уход за ногтями</td>
+                <td>5000 ₸</td>
+            </tr>
+
+            <tr>
+                <td>Педикюр</td>
+                <td>Уход за ногами</td>
+                <td>7000 ₸</td>
+            </tr>
+
+            <tr>
+                <td>Уход за лицом</td>
+                <td>Косметические процедуры</td>
+                <td>10000 ₸</td>
+            </tr>
+
+            <tr>
+                <td>Коррекция бровей</td>
+                <td>Оформление бровей</td>
+                <td>4000 ₸</td>
+            </tr>
+
+            <tr>
+                <td>Макияж</td>
+                <td>Профессиональный макияж</td>
+                <td>12000 ₸</td>
+            </tr>
+
+            <tr>
+                <td>Укладка волос</td>
+                <td>Создание причёски</td>
+                <td>6000 ₸</td>
+            </tr>
+        </table>
+
+        <h2>Наши мастера</h2>
+
+        <div class="services">
+
+            <div class="service">
+                <h3>Анна Смирнова</h3>
+                <p>Мастер маникюра и педикюра.</p>
+            </div>
+
+            <div class="service">
+                <h3>Мария Иванова</h3>
+                <p>Косметолог.</p>
+            </div>
+
+            <div class="service">
+                <h3>Елена Петрова</h3>
+                <p>Мастер макияжа и укладки.</p>
+            </div>
+
+        </div>
+
+        <h2>Запись на услугу</h2>
+
+        <form onsubmit="alert('Спасибо! Ваша заявка принята.'); return false;">
+
+            <label>Ваше имя:</label>
+            <input type="text" placeholder="Введите имя" required>
+
+            <label>Телефон:</label>
+            <input type="tel" placeholder="+7..." required>
+
+            <label>Выберите услугу:</label>
+            <select>
+                <option>Маникюр</option>
+                <option>Педикюр</option>
+                <option>Уход за лицом</option>
+                <option>Коррекция бровей</option>
+                <option>Макияж</option>
+                <option>Укладка волос</option>
+            </select>
+
+            <button type="submit">Записаться</button>
+
+        </form>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Салон красоты «ЛЮМИ»</p>
+    </footer>
+
+</body>
+</html>
